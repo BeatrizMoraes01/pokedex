@@ -51,5 +51,41 @@ pok_img.place(x=60, y=50)
 
 pok_tipo.lift()
 
+# status
+pok_status = Label(janela, text='Status', anchor=CENTER, relief='flat', font=('Verdana 20'), bg=cor1, fg=cor0)
+pok_status.place(x=15, y=310)
+
+# hp
+pok_hp = Label(janela, text='HP: 100', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_hp.place(x=15, y=360)
+
+# ataque
+pok_ataque = Label(janela, text='Ataque: 600', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_ataque.place(x=15, y=385)
+
+# defesa
+pok_defesa = Label(janela, text='Defesa: 500', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_defesa.place(x=15, y=410)
+
+# velocidade
+pok_velocidade = Label(janela, text='Velocidade: 300', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_velocidade.place(x=15, y=435)
+
+# total
+pok_total = Label(janela, text='Total: 1.700', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_total.place(x=15, y=460)
+
+# habilidades
+pok_habilidades = Label(janela, text='Habilidades', anchor=CENTER, relief='flat', font=('Verdana 20'), bg=cor1, fg=cor0)
+pok_habilidades.place(x=180, y=310)
+
+# hb_1
+pok_hb_1 = Label(janela, text='Choque do Trovão', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_hb_1.place(x=195, y=360)
+
+# hb_2
+pok_hb_2 = Label(janela, text='Cabeçada', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
+pok_hb_2.place(x=195, y=385)
+
 # executor
 janela.mainloop()
