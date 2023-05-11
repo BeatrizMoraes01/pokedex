@@ -87,5 +87,48 @@ pok_hb_1.place(x=195, y=360)
 pok_hb_2 = Label(janela, text='Cabeçada', anchor=CENTER, relief='flat', font=('Verdana 10'), bg=cor1, fg=cor0)
 pok_hb_2.place(x=195, y=385)
 
+# botões pokemons
+img_pok_1 = Image.open('images/cabeca-pikachu.png')
+img_pok_1 = img_pok_1.resize((40, 40))
+img_pok_1 = ImageTk.PhotoImage(img_pok_1)
+
+b_pok_1 = Button(janela, image=img_pok_1, text='Pikachu', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_1.place(x=375, y=10)
+
+img_pok_2 = Image.open('images/cabeca-bulbasaur.png')
+img_pok_2 = img_pok_2.resize((40, 40))
+img_pok_2 = ImageTk.PhotoImage(img_pok_2)
+
+b_pok_2 = Button(janela, image=img_pok_2, text='Bulbasaur', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_2.place(x=375, y=65)
+
+img_pok_3 = Image.open('images/cabeca-charmander.png')
+img_pok_3 = img_pok_3.resize((40, 40))
+img_pok_3 = ImageTk.PhotoImage(img_pok_3)
+
+b_pok_3 = Button(janela, image=img_pok_3, text='Charmander', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_3.place(x=375, y=120)
+
+img_pok_4 = Image.open('images/cabeca-gyarados.png')
+img_pok_4 = img_pok_4.resize((40, 40))
+img_pok_4 = ImageTk.PhotoImage(img_pok_4)
+
+b_pok_4 = Button(janela, image=img_pok_4, text='Gyarados', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_4.place(x=375, y=175)
+
+img_pok_5 = Image.open('images/cabeca-gengar.png')
+img_pok_5 = img_pok_5.resize((40, 40))
+img_pok_5 = ImageTk.PhotoImage(img_pok_5)
+
+b_pok_5 = Button(janela, image=img_pok_5, text='Gengar', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_5.place(x=375, y=230)
+
+img_pok_6 = Image.open('images/cabeca-dragonite.png')
+img_pok_6 = img_pok_6.resize((40, 40))
+img_pok_6 = ImageTk.PhotoImage(img_pok_6)
+
+b_pok_6 = Button(janela, image=img_pok_6, text='Gengar', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_6.place(x=375, y=285)
+
 # executor
 janela.mainloop()
