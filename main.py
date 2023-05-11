@@ -127,7 +127,7 @@ img_pok_6 = Image.open('images/cabeca-dragonite.png')
 img_pok_6 = img_pok_6.resize((40, 40))
 img_pok_6 = ImageTk.PhotoImage(img_pok_6)
 
-b_pok_6 = Button(janela, image=img_pok_6, text='Gengar', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
+b_pok_6 = Button(janela, image=img_pok_6, text='Dragonite', width=150, relief='raised', overrelief=RIDGE, compound=LEFT, anchor=NW, padx=5, font=('Verdana 12'), bg=cor1, fg=cor0)
 b_pok_6.place(x=375, y=285)
 
 # executor
