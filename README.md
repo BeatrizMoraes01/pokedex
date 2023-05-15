@@ -1,5 +1,5 @@
 # Projeto Pokedex
-### Criei essa Pokedex com Python tendo como inspiração o canal "Usando Python" do YouTube.
+### Criei essa Pokedex com Python tendo como inspiração no canal do YouTube [UsandoPython](https://www.youtube.com/@usandopython)
 - Finalidade apenas para aprendizado.
 
 
